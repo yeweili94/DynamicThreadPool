@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.2)
+project(threadpool)
+AUX_SOURCE_DIRECTORY(./src DIR_SRCS)
+ADD_EXECUTABLE(threadpool ${DIR_SRCS})
+TARGET_LINK_LIBRARIES(threadpool pthread rt)
