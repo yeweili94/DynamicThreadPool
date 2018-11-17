@@ -1,2 +1,2 @@
 # threadpool-simple
-a simple implementation threadpooo
+a simple implementation threadpool
